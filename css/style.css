@@ -3,10 +3,10 @@
 
 #clean_clear {
   margin-top: 80px;
-  border-bottom: 2px solid #292F36;
+  border-bottom: 3px solid #292F36;
 }
 #wil_trahan {
-  border-left: 2px solid #F72C25;
+  border-left: 3px solid #F72C25;
   margin-top: 168px;
 }
 .front_text {
@@ -43,8 +43,8 @@
   max-width: 620px;
   line-height: 150%;
   font-size: 17px;
-  border-bottom: 2px solid #292F36;
-  border-left: 2px solid #F72C25;
+  border-bottom: 3px solid #292F36;
+  border-left: 3px solid #F72C25;
   padding: 10px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -59,14 +59,15 @@ header h1 {
 
 #portfolio{
   margin-top: 220px;
+  margin-bottom: 80px;
 }
 
 .port {
   padding: 20px;
 }
 .port_txt {
-  border-bottom: 2px solid #F72C25;
-  border-right: 2px solid #292F36;
+  border-left: 3px solid #F72C25;
+  border-bottom: 3px solid #292F36;
   padding: 25px 10px 10px 10px;
   margin-top: 25px;
   /*margin-left: 5px;*/
