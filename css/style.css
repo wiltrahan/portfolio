@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+#clean_clear {
+  margin-top: 80px;
+  border-bottom: 2px solid #292F36;
+}
+#wil_trahan {
+  border-left: 2px solid #F72C25;
+  margin-top: 168px;
+}
+.front_text {
+  color: #292F36;
+  font-family: 'Open Sans', sans-serif;
+}
+.front_text h1 {
+  font-size: 40px;
+}
+#with {
+  font-size: 50%;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  float: none;
+  vertical-align: top;
+  background-color: #ffffff;
+
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Open Sans', sans-serif;
+  color: #292F36;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #F72C25;
+}
+
+
+#about{
+  max-width: 620px;
+  line-height: 150%;
+  font-size: 17px;
+  border-bottom: 2px solid #292F36;
+  border-left: 2px solid #F72C25;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header h1 {
+  color: #292F36;
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 150%;
+}
+
+#portfolio{
+  margin-top: 220px;
+}
+
+.port {
+  padding: 20px;
+}
+.port_txt {
+  border-bottom: 2px solid #F72C25;
+  border-right: 2px solid #292F36;
+  padding: 25px 10px 10px 10px;
+  margin-top: 25px;
+  /*margin-left: 5px;*/
+  font-family: 'Open Sans', sans-serif;
+  color: #292F36;
+
+}
