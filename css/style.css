@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
+body {
+  padding-top: 70px;
+}
+
+#landing {
+  height: 100vh;
+}
 
 #clean_clear {
   margin-top: 80px;
   border-bottom: 3px solid #292F36;
 }
+
+@media only screen and (max-width: 500px) {
+  #clean_clear {
+    border-bottom: none;
+    text-align: center;
+  }
+}
+
 #wil_trahan {
   border-left: 3px solid #F72C25;
   margin-top: 168px;
+}
+
+@media only screen and (max-width: 800px) {
+  #wil_trahan {
+    border-left: none;
+    text-align: center;
+    margin-top: 0px;
+  }
 }
 .front_text {
   color: #292F36;
@@ -26,8 +49,6 @@
   float: none;
   vertical-align: top;
   background-color: #ffffff;
-
-
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -49,29 +70,42 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+@media only screen and (max-width: 800px) {
+  #about {
+    border-bottom: none;
+    border-left: none;
+    margin-top: 20px;
+  }
+}
+
 header h1 {
   color: #292F36;
   margin-bottom: 40px;
   font-size: 40px;
   font-family: 'Open Sans', sans-serif;
   line-height: 150%;
+  margin-top: 80px;
 }
 
 #portfolio{
-  margin-top: 220px;
-  margin-bottom: 80px;
+  height: 70vh;
+  /*margin-top: 260px;*/
+  /*padding-bottom: 120px;*/
+  /*border: 2px solid black;*/
 }
 
-.port {
-  padding: 20px;
+#portfolio h1 {
+  /*margin-bottom: 20px;*/
+  color: #292F36;
+  font-family: 'Open Sans', sans-serif;
 }
-.port_txt {
-  border-left: 3px solid #F72C25;
-  border-bottom: 3px solid #292F36;
-  padding: 25px 10px 10px 10px;
-  margin-top: 25px;
-  /*margin-left: 5px;*/
+
+.port_info {
+  padding-top: 20px;
   font-family: 'Open Sans', sans-serif;
   color: #292F36;
-
+  text-align: left;
+  padding: 10px;
+  font-size: 1em;
 }
+
