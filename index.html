@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="scripts/app.js"></script>
@@ -24,7 +27,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#myCarousel">Portfolio</a></li>
           <li><a href="#">About Me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -50,80 +53,57 @@
   <div class="container">
     <div class="row">
       <article id="about">
-        <p>Hi, my name is Wil Trahan and I am a web developer based in Providence, Rhode Island.  I specialize in writing clear, clean, responsive code, which translates into a user friendly design on the front end.  I have experience with JavaScript, jQuery, Python, Ruby on Rails, HTML5, CSS3, Bootstrap, and I am always looking to learn more about new technolgies.  Thank you for stopping by my page and please feel free to contact me at any time!</p>
+        <p>Hi, my name is Wil Trahan and I am a web developer based in Providence, Rhode Island.  I specialize in writing clean, clear, responsive code, which translates into a user friendly design on the front end.  I have experience with JavaScript, jQuery, Python, Ruby on Rails, HTML5, CSS3, Bootstrap, and I am always looking to learn more about new technolgies.  Thank you for stopping by my page and please feel free to contact me at any time!</p>
       </article>
 
     </div>
   </div>
 </div>
 
-<!-- <section id="portfolio" class="container">
-  <div id="portfolio1">
-  <header><h1 class="text-center">Recent Work</h1></header>
-    <div class="row">
-      <a class="col-md-3 port" href="#portfolio"><img src="images/97.png" style="width:265px;height:250px;"></a>
-      <div class="col-md-3 port_txt">
-        <p>97 Percent is an application that enables a user to find their representative in Washington D.C. by entering their home address.  When the user enters their address, a call is made to the Google Civics API which then returns the information requested.</p>
-      </div>
-
-      <a class="col-md-3 port" href="#portfolio"><img src="images/wiki.png" style="width:265px;height:250px;"></a>
-      <div class="col-md-3 port_txt">
-        <p>WiLkipedia is a WikiPedia viewer that a user can use to lookup articles on Wikipedia using the portal that I developed.  It works by taking the entered string and returning the top ten matches to what was entered. Users can then link directly to the article.</p>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolio2">
-    <div class="row">
-      <a class="col-md-3 port" href="#portfolio"><img src="images/weather.png" style="width:265px; height:250px;"></a>
-      <div class="col-md-3 port_txt">
-        <p>This is a weather application that was developed to the specifications in the FreeCodeCamp ciriculum.  It works by getting the users current location via the browser, and returns the temperature, condition, time, and also shows the location of the user.</p>
-      </div>
-
-      <a class="col-md-3 port" href="#portfolio"><img src="images/flick.png" style="width:265px; height:250px;"></a>
-      <div class="col-md-3 port_txt">
-        <p>FlickList is a class project that I completed during my time in LaunchCode's LC101 program. It lets users keep a running "to-do" list of movies they've been meaning to watch and provides an interface for browsing new movies, using the moviedb API.</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- re-add 'slide' -->
-<div class="container text-center" id="portfolio">
-  <h1>Recent Work</h1>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- <ol class="carousel-indicators">
-      <li data-target="#" data-slide-to="0" class="active"></li>
-      <li data-target="#" data-slide-to="1"></li>
-      <li data-target="#" data-slide-to="2"></li>
-      <li data-target="#" data-slide-to="3"></li>
-    </ol> -->
-
-    <!-- Wrapper for slides -->
+<div class="container text-center" id="porty">
+<h1 id="recent">Recent Projects</h1>
+  <div id="myCarousel" class="carousel slide portfolio" data-ride="carousel">
     <div class="carousel-inner">
       <div class="item active">
-        <img src="images/97.png" alt="97percent Web Application" style="width:100%; height: 600px;">
-        <p class="port_info">97 Percent is an application that enables a user to find their representative in Washington D.C. by entering their home address.  When the user enters their address, a call is made to the Google Civics API which then returns the information requested.
-        <button type="button" class="btn btn-link">GitHub Repo</button><button type="button" class="btn btn-link">Demo</button></p>
+        <img src="images/97.png" alt="97percent Web Application" style="height:600px;">
+        <p class="port_info"><span class="port_title">97 Percent</span><br>97 Percent is an application that enables a user to find their representative in Washington D.C. by entering their home address.  When the user enters their address, a call is made to the Google Civics API which then returns the information requested.
+        <br>
+        <a href="https://github.com/wiltrahan/97percent" class="btn btn-link" role="button">GitHub Repo</a>
+        <br>
+        <a href="#" class="btn btn-link" role="button">Demo</a>
+        </p>
       </div>
 
       <div class="item">
-        <img src="images/wiki.png" alt="WiLkipedia" style="width:100%; height: 600px;">
-        <p class="port_info">WiLkipedia is a WikiPedia viewer that a user can use to lookup articles on Wikipedia using the portal that I developed.  It works by taking the entered string and returning the top ten matches to what was entered. Users can then link directly to the article.
-        <button type="button" class="btn btn-link">GitHub Repo</button><button type="button" class="btn btn-link">Demo</button></p>
+        <img src="images/wiki.png" alt="Wilkipedia" style="height:600px;">
+        <p class="port_info"><span class="port_title">Wilkipedia</span><br>WiLkipedia is a WikiPedia viewer that a user can use to lookup articles on Wikipedia using the portal that I developed.  It works by taking the entered string and returning the top ten matches to what was entered. Users can then link directly to the article.
+        <br>
+        <a href="https://github.com/wiltrahan/wikiViewer" class="btn btn-link" role="button">GitHub Repo</a>
+        <br>
+        <a href="#" class="btn btn-link" role="button">Demo</a>
+        </p>
       </div>
 
 
       <div class="item">
-        <img src="images/weather.png" alt="Weather App" style="width:100%; height: 600px;">
-        <p class="port_info">This is a weather application that was developed to the specifications in the FreeCodeCamp ciriculum.  It works by getting the users current location via the browser, and returns the temperature, condition, time, and also shows the location of the user.<button type="button" class="btn btn-link">GitHub Repo</button><button type="button" class="btn btn-link">Demo</button></p>
+        <img src="images/weather.png" alt="Weather App" style="height:600px;">
+        <p class="port_info"><span class="port_title">FCC Weather</span><br>This is a weather application that was developed to the specifications in the FreeCodeCamp ciriculum.  It works by getting the users current location via the browser, and returns the temperature, condition, time, and also shows the location of the user.
+        <br>
+        <a href="https://github.com/wiltrahan/weatherApp" class="btn btn-link" role="button">GitHub Repo</a>
+        <br>
+        <a href="#" class="btn btn-link" role="button">Demo</a>
+        </p>
       </div>
 
       <div class="item">
-        <img src="images/flick.png" alt="FlickList" style="width:100%; height: 600px;">
-        <p class="port_info">FlickList is a class project that I completed during my time in LaunchCode's LC101 program. It lets users keep a running "to-do" list of movies they've been meaning to watch and provides an interface for browsing new movies, using the moviedb API.<button type="button" class="btn btn-link">GitHub Repo</button><button type="button" class="btn btn-link">Demo</button></p>
+        <img src="images/flick.png" alt="FlickList" style="height:600px;">
+        <p class="port_info"><span class="port_title">FlickList</span><br>FlickList is a class project that I completed during my time in LaunchCode's LC101 program. It lets users keep a running "to-do" list of movies they've been meaning to watch and provides an interface for browsing new movies, using the moviedb API.
+        <br>
+        <a href="https://github.com/wiltrahan/flicklist" class="btn btn-link" role="button">GitHub Repo</a>
+        <br>
+        <a href="#" class="btn btn-link" role="button">Demo</a>
+        </p>
       </div>
-
     </div>
 
     <!-- Left and right controls -->
@@ -136,6 +116,14 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
+
+<div class="container" id="contact">
+  <div class="row">
+    <h2>Contact Me</h2>
+    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+  </div>
+
 </div>
 
 
