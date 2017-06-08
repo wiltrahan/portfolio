@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
-@font-face {
-    font-family: din;
-    src: url('DINCondensedBold.ttf');
-}
 
 body {
   padding-top: 70px;
-  /*background-color: #B3BFB8;*/
   background-color: #90939B;
 }
 .container-fluid {
@@ -18,50 +13,9 @@ body {
 
 #landing {
   height: 100vh;
-  background: url(../images/design4.png) no-repeat;
+  background: url(../images/design5.png) no-repeat;
   background-size: cover;
 
-}
-
-/*background: url(../img/background.jpg) no-repeat center center fixed #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-
-#clean_clear {
-  margin-top: 80px;
-  border-bottom: 3px solid #292F36;
-}
-
-@media only screen and (max-width: 500px) {
-  #clean_clear {
-    border-bottom: none;
-    text-align: center;
-  }
-}
-
-#wil_trahan {
-  border-left: 3px solid #F5FDC6;
-  margin-top: 168px;
-}
-
-@media only screen and (max-width: 800px) {
-  #wil_trahan {
-    border-left: none;
-    text-align: center;
-    margin-top: 0px;
-  }
-}
-.front_text {
-  color: #292F36;
-  font-family: 'Open Sans', sans-serif;
-}
-.front_text h1 {
-  font-size: 40px;
-}
-#with {
-  font-size: 50%;
 }
 
 .navbar .navbar-nav {
@@ -69,7 +23,6 @@ body {
   justify-content: space-around;
   float: none;
   vertical-align: top;
-  /*background-color: #838B86;*/
   background-color: #7CB518;
   border-bottom: 1px solid #050916;
 }
@@ -80,38 +33,6 @@ body {
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #3E5C76;
-}
-
-
-#about{
-  max-width: 620px;
-  line-height: 150%;
-  font-size: 17px;
-  border-bottom: 3px solid #292F36;
-  border-left: 3px solid #F5FDC6;
-  padding: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-@media only screen and (max-width: 800px) {
-  #about {
-    border-bottom: none;
-    border-left: none;
-    margin-top: 20px;
-  }
-}
-
-header h1 {
-  color: #292F36;
-  margin-bottom: 40px;
-  font-size: 40px;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 150%;
-  margin-top: 80px;
-}
-
-.btn-link {
-  color: #677CAD;
 }
 
 #portfolio h2 {
@@ -128,3 +49,21 @@ header h1 {
 .caption {
   font-family: 'Raleway', sans-serif;
 }
+#contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact ul li {
+  display: inline;
+  padding: 20px;
+
+}
+
+#contact ul li img {
+  height: 80px;
+  width: 80px;
+}
+
+
