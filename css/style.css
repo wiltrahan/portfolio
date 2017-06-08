@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+@font-face {
+    font-family: din;
+    src: url('DINCondensedBold.ttf');
+}
 
 body {
   padding-top: 70px;
-  background-color: #B3BFB8;
+  /*background-color: #B3BFB8;*/
+  background-color: #90939B;
 }
 .container-fluid {
   padding-left: 0;
@@ -11,7 +18,16 @@ body {
 
 #landing {
   height: 100vh;
+  background: url(../images/design4.png) no-repeat;
+  background-size: cover;
+
 }
+
+/*background: url(../img/background.jpg) no-repeat center center fixed #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 
 #clean_clear {
   margin-top: 80px;
@@ -53,13 +69,14 @@ body {
   justify-content: space-around;
   float: none;
   vertical-align: top;
-  background-color: #838B86;
-  border-bottom: 2px solid #525754;
+  /*background-color: #838B86;*/
+  background-color: #7CB518;
+  border-bottom: 1px solid #050916;
 }
 
 .navbar-default .navbar-nav>li>a {
   font-family: 'Open Sans', sans-serif;
-  color: #F5FDCB;
+  color: #FBFAF8;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #3E5C76;
@@ -93,45 +110,21 @@ header h1 {
   margin-top: 80px;
 }
 
-.carousel {
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 1px 4px 5px 0px rgba(41,47,54,0.75);
-}
-.portfolio{
-  /*margin-top: 50px;*/
-  /*padding-bottom: 120px;*/
-}
-#recent {
-  font-family: 'Open Sans', sans-serif;
-  color: #292F36;
-  /*margin-top: 120px;*/
-}
-
-.item img {
-  width: 75%;
-  float: left;
-}
-
-.item p {
-  font-family: 'Open Sans', sans-serif;
-  color: #292F36;
-  text-align: left;
-  padding: 20px;
-  line-height: 170%;
-}
-.port_title {
-  font-family: 'Open Sans', sans-serif;
-  color: #292F36;
-  font-size: 1.8em;
-}
-
-img{
-  border-radius: 10px;
-  margin-right: 10px;
-  /*padding-left: 10px;*/
-}
 .btn-link {
   color: #677CAD;
 }
 
+#portfolio h2 {
+  font-family: 'Lato', sans-serif;
+  color: #FBFAF8;
+}
+
+.to-github {
+  font-family: 'Lato', sans-serif;
+  color: #FBFAF8;
+
+}
+
+.caption {
+  font-family: 'Raleway', sans-serif;
+}
