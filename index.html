@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/scrolling-nav.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts/jquery.easing.min.js"></script>
+  <script src="scripts/scrolling-nav.js"></script>
   <script src="scripts/app.js"></script>
   <title>Wil Trahan</title>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
-      <div class="navbar-header">
+      <div class="navbar-header page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -26,10 +29,10 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#about">Contact</a></li>
+          <li><a class="page-scroll" href="#">Home</a></li>
+          <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+          <li><a class="page-scroll" href="#about">About Me</a></li>
+          <li><a class="page-scroll" href="#about">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -61,14 +64,14 @@
 </div>
 
 <div class="container" id="portfolio">
-  <h2 class="text-center">Recent Work</h2>
+  <h2 class="text-center">RECENT WORK</h2>
   <p class="text-center to-github">click on image for github repo</p>
   <div class="row">
 
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="https://github.com/wiltrahan/97percent" target="_blank">
-          <img src="images/97.png" alt="holder" style="width:100%; height:300px;">
+          <img src="images/97.png" alt="97Percent" style="height: 300px;">
           <div class="caption">
             <p>97% is an application that enables a user to find their representative in Washington D.C. by entering their home address.  When the user enters their address, a call is made to the Google Civics API which then returns the information requested.</p>
           </div>
@@ -79,7 +82,7 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="https://github.com/wiltrahan/wikiViewer" target="_blank">
-          <img src="images/wiki.png" alt="holder" style="width:100%; height:300px;">
+          <img src="images/wiki.png" alt="wiki" style="height: 300px;">
           <div class="caption">
             <p>WiLkipedia is a WikiPedia viewer that a user can use to lookup articles on Wikipedia using the portal that I developed.  It works by taking the entered string and returning the top ten matches to what was entered. Users can then link directly to the article.</p>
           </div>
@@ -90,7 +93,7 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="https://github.com/wiltrahan/weatherApp" target="_blank">
-          <img src="images/weather.png" alt="holder" style="width:100%; height:300px;">
+          <img src="images/weather.png" alt="weather" style="height: 300px;">
           <div class="caption">
             <p>This is a weather application that was developed to the specifications in the FreeCodeCamp ciriculum.  It works by getting the users current location via the browser, and returns the temperature, condition, time, and the location of the user.</p>
           </div>
@@ -101,7 +104,7 @@
     <div class="col-md-6">
       <div class="thumbnail">
         <a href="https://github.com/wiltrahan/flicklist" target="_blank">
-          <img src="images/flick.png" alt="holder" style="width:100%; height:300px;">
+          <img src="images/flick.png" alt="flicklist" style="height: 300px;">
           <div class="caption">
             <p>FlickList is a class project that I completed during my time in LaunchCode's LC101 program. It lets users keep a running "to-do" list of movies they've been meaning to watch and provides an interface for browsing new movies, using the moviedb API.</p>
           </div>
@@ -113,38 +116,84 @@
 
 <div class="container" id="about">
   <div class="row">
-    <article class="col-md-6">
-      <h2 class="text-center">About Me</h2>
-      <p>Hi, my name is Wil Trahan and I am a web developer based in Providence, Rhode Island.  I specialize in writing clean, clear, responsive code, which translates into a user friendly design on the front end.  I have experience with JavaScript, jQuery, Python, Ruby on Rails, HTML5, CSS3, Bootstrap, and I am always looking to learn more about new technolgies.  Thank you for stopping by my page and please feel free to contact me at any time!</p>
+    <article class="col-md-6" id="about-me">
+      <h2 class="text-center about-contact">ABOUT</h2>
+        <table class="table table-condensed">
+          <tbody>
+            <tr>
+              <td class="td-left">NAME:</td>
+              <td class="td-right">WIL TRAHAN</td>
+            </tr>
+            <tr>
+              <td class="td-left">OCCUPATION:</td>
+              <td class="td-right">DEVELOPER</td>
+            </tr>
+            <tr>
+              <td class="td-left">EXPERIENCE:</td>
+              <td class="td-right">INTERMEDIATE</td>
+            </tr>
+            <tr>
+              <td class="td-left">TECHNOLOGIES:</td>
+              <td class="td-right">JAVASCRIPT</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">JQUERY</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">PYTHON</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">RUBY ON RAILS</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">HTML5</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">CSS3</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="td-right">BOOTSTRAP</td>
+            </tr>
+            <tr class="final-cell">
+              <td></td>
+              <td class="td-right">GITHUB</td>
+            </tr>
+          </tbody>
+        </table>
     </article>
     <section class="col-md-6" id="contact">
-    <h2 class="text-center">Contact Me</h2>
+    <h2 class="text-center about-contact">CONTACT</h2>
       <ul class="text-center">
         <li>
           <a href="https://github.com/wiltrahan">
-            <img src="images/GitHub_Logo.png" alt="github">
+            <i class="fa fa-github"></i>
           </a>
         </li>
         <li>
           <a href="https://twitter.com/WilTrahan">
-            <img src="images/twitter.png" alt="twitter">
+          <i class="fa fa-twitter"></i>
           </a>
         </li>
         <li>
           <a href="#contact">
-            <img src="images/gmail.png" alt="gmail">
+            <i class="fa fa-envelope-o"></i>
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/djwiltrahan">
-            <img src="images/fb.png" alt="facebook">
+            <i class="fa fa-facebook-official"></i>
           </a>
         </li>
       </ul>
   </div>
 </div>
 
-
-
 </body>
 </html>
+
