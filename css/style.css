@@ -7,6 +7,7 @@ body {
   background-color: #90939B;
 
 }
+
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
@@ -16,13 +17,11 @@ body {
   height: 100vh;
   background: url(../images/design5.png) no-repeat;
   background-size: cover;
-
 }
 
 .navbar-default {
   background-color: #7CB518;
   border: 0;
-
 }
 
 .navbar .navbar-nav {
@@ -48,14 +47,12 @@ body {
 #portfolio h2 {
   font-family: 'Lato', sans-serif;
   color: #FBFAF8;
-}
 
-.thumbnail {
 }
 
 .thumbnail img {
   width: 100%;
-
+  background-color: black;
 }
 
 .to-github {
@@ -65,6 +62,7 @@ body {
 }
 .caption {
   font-family: 'Raleway', sans-serif;
+  background-color: #CCCDD1;
 }
 
 #about {
@@ -74,10 +72,6 @@ body {
   background-size: 100vw 100vh;
   height: 600px;
   margin-bottom: 80px;
-}
-
-#about-me {
-
 }
 
 #contact ul {
@@ -97,16 +91,11 @@ body {
   color: black;
 }
 
-
 .about-contact {
   font-family: 'Lato', sans-serif;
   color: #FBFAF8;
 }
-.about-text {
-  font-family: 'Raleway', sans-serif;
-  color: #FBFAF8;
-  font-size: 18px;
-}
+
 .td-left {
   font-family: 'Raleway', sans-serif;
   color: #FBFAF8;
@@ -124,5 +113,13 @@ tr.cell {
 
 .final-cell {
   border-bottom: 1px solid #FBFAF8;;
+}
 
+#my-foot {
+    background-color: #AEB0B6;
+    color: #ffffff;
+    padding-left: 140px;
+    padding-top: 10px;
+    height: 40px;
+    font-family: 'Raleway', sans-serif;
 }
