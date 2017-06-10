@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-default {
-  background-color: #7CB518;
+  background-color: #9FC957;
   border: 0;
 }
 
@@ -34,6 +34,7 @@ body {
 .navbar-default .navbar-nav>li>a {
   font-family: 'Open Sans', sans-serif;
   color: #FBFAF8;
+  font-size: 16px;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #3E5C76;
@@ -47,6 +48,7 @@ body {
 #portfolio h2 {
   font-family: 'Lato', sans-serif;
   color: #FBFAF8;
+  font-size: 42px;
 
 }
 
@@ -94,6 +96,7 @@ body {
 .about-contact {
   font-family: 'Lato', sans-serif;
   color: #FBFAF8;
+  font-size: 42px;
 }
 
 .td-left {
@@ -122,4 +125,13 @@ tr.cell {
     padding-top: 10px;
     height: 40px;
     font-family: 'Raleway', sans-serif;
+}
+
+.face {
+  padding: 0;
+}
+
+.table-face {
+  color: #FBFAF8;
+  font-size: 20px;
 }
