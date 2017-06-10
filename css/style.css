@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-default {
-  background-color: #9FC957;
+  background-color: #87BB2D;
   border: 0;
 }
 
@@ -68,11 +68,12 @@ body {
 }
 
 #about {
-  margin-top: 40px;
+  padding-top: 60px;
+
   background: url("../images/head3.png");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
-  height: 600px;
+  height: 660px;
   margin-bottom: 80px;
 }
 
