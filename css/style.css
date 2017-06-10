@@ -15,7 +15,7 @@ body {
 
 #landing {
   height: 100vh;
-  background: url(../images/design5.png) no-repeat;
+  background: url(../images/design9.png) no-repeat;
   background-size: cover;
 }
 
@@ -68,13 +68,13 @@ body {
 }
 
 #about {
-  padding-top: 60px;
-
-  background: url("../images/head3.png");
+  /*border: 1px solid black;*/
+  padding-top: 20px;
+  background: url("../images/head4.png");
   background-repeat: no-repeat;
-  background-size: 100vw 100vh;
-  height: 660px;
-  margin-bottom: 80px;
+  /*background-size: 100vh;*/
+/*  height: 660px;*/
+  margin-bottom: 130px;
 }
 
 #contact ul {
